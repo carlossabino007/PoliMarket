@@ -1,0 +1,242 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>PoliMarket v.1.0</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="ScriptsPlantilla/css/all.css"  media="screen" />
+
+ <script  type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="Content/themes/base/all.css" rel="stylesheet" type="text/css" />
+
+        <style> 
+        
+        .style1
+        {
+            width: 100%;
+            height: 74px;
+        }
+        .style3
+        {
+            width: 139px;
+            height: 48px;
+        }
+        .style4
+        {
+            height: 67px;
+        }
+        .style5
+        {
+            width: 612px;
+            height: 81px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+<div id="wrapper">
+  <div id="wrapper-top"> </div>
+  <div id="left">
+    <%--<h1 class="logo"><a href="index.html">ShutterPress</a></h1>--%>
+      <table class="style1">
+          <tr>
+              <td class="style4">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img alt="" class="style3" src="Polimagenes/PoliImagen1.JPG" /><br />
+                  &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /></td>
+          </tr>
+         
+      </table>
+    <ul class="menu">
+      <li><a href="default.aspx">Inicio/Cierre de Sesión</a></li>
+  
+<li> <a class="closed" href="#">Empleados</a>
+        <ul class="sub-menu closed">
+          <li><a href="Poli_Empleado01.aspx">Crear Empleado</a></li>
+          <li><a href="Poli_Empleado01_EditaEmpleados.aspx">Consultar y/o Editar Empleados</a></li>
+        </ul>
+      </li>
+
+
+<li> <a class="closed" href="#">Proveedores</a>
+        <ul class="sub-menu closed">
+          <li><a href="PoliProveedor01.aspx">Crear Proveedores</a></li>
+          <li><a href="Poli_Empleado01_EditaProveedores.aspx">Consultar y/o Editar Proveedores</a></li>
+        </ul>
+      </li>
+
+
+<%--<li> <a class="closed" href="#">Clientes</a>
+        <ul class="sub-menu closed">
+          <li><a href="PoliEmpleado.aspx">Crear Clientes</a></li>
+          <li><a href="Registro_de_Mensajeria_Consultas.aspx">Actualizar información</a></li>
+        </ul>
+      </li>--%>
+
+
+        <li><a href="Poli_ProductosMain01.aspx">Productos en Bodega</a></li>
+
+<%--<li> <a class="closed" href="#">Productos en Bodega</a>
+        <ul class="sub-menu closed">
+          <li><a href="PoliEmpleado.aspx">Consultar Stock</a></li>
+          <li><a href="Registro_de_Mensajeria_Consultas.aspx">Actualizar inventario</a></li>
+          <li><a href="#">Genera Alerta Stock</a></li>
+        </ul>
+      </li>
+--%>
+
+
+     <%-- <li> <a class="closed" href="#">Entrega</a>
+        <ul class="sub-menu closed">
+          <li><a href="PaginaControlPlanillasMain.aspx">Ingresa por Areas</a></li>
+          <li><a href="PaginaControlPlanillasRecibeArchivo.aspx">Recibe Sistemas y Archivo</a></li>
+          <li><a href="PaginaControlPlanillasTrazabilidad.aspx">Rastreo de historia</a></li>
+          <li><a href="PaginaControlPlanillasConsultas.aspx">Consultas</a></li>
+        </ul>
+      </li>
+--%>
+
+        <%--<li><a class="closed" href="#">Configuraciones</a>
+            <ul class="sub-menu closed">
+                <li><a href="pageConfiguraciones_EntidadesClientesaspx.aspx">Generales</a></li>
+                <li><a href="pageConfiguraciones_CuadroTarifasDeEstudios.aspx">Tarifas de Estudios</a></li>
+                <li><a href="pageConfiguraciones_AreasDeTrabajo.aspx">Areas/Grupos de Trabajo</a></li>
+                <li><a href="pageConfiguraciones_UnidadesDeMedida.aspx">Unidades de Medida</a></li>
+            </ul>
+        </li>--%>
+
+        <li><a href="PaginaCambioDeContrasena.aspx">Cambiar contraseña</a></li>
+
+
+        
+
+      <%--         <li> <a class="closed" href="#">Usuarios y Roles</a>
+        <ul class="sub-menu closed">
+          <li><a  href="PaginaListarUsuarios.aspx">Listar Usuarios</a></li>
+          <li><a  href="PaginaCreacionDeUsuarios.aspx">Agregar Usarios</a></li>
+          <li><a  href="FormularioRoles.aspx">Roles</a></li>
+          <li><a  href="#">Usuarios Activos</a></li>
+          <li><a href="#">Permisos por Usuario</a></li>
+        </ul>
+      </li>
+      --%>
+   
+      
+        <li> <a class="closed2" href="#"></a>
+        <ul class="sub-menu closed">
+          <li><a  href="#"></a></li>
+          <li><a  href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </li>
+      <li> <a class="closed2" href="#"></a>
+        <ul class="sub-menu closed">
+          <li><a  href="#"></a></li>
+          <li><a  href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </li>
+      <li> <a class="closed2" href="#"></a>
+        <ul class="sub-menu closed">
+          <li><a  href="#"></a></li>
+          <li><a  href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </li>
+      
+
+    <div id="left-bottom">
+
+<%--      <div class="social"> <span>Social:</span>
+        <ul>
+          <li><a class="tumblr" href="#">tumblr</a></li>
+          <li><a class="picasa" href="#">picasa</a></li>
+          <li><a class="vimeo" href="#">vimeo</a></li>
+          <li><a class="flickr" href="#">flickr</a></li>
+          <li><a class="twitter" href="#">twitter</a></li>
+          <li><a class="facebook" href="#">facebook</a></li>
+          <li><a class="rss" href="#">rss</a></li>
+        </ul>
+        
+      </div>
+      --%> 
+     
+<div class="search">
+          <fieldset>
+            <div class="left">
+              <input type="text" value="" />
+            </div>
+            <div class="right">
+              <input type="submit" value="" />
+            </div>
+          </fieldset>
+        </div>
+    </div>
+  </div>
+  <div id="right">
+
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         
+          <table class="style1">
+              <tr>
+                  <td>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <img alt="" class="style5" src="MisImagenes/Biennvenida1.JPG" /></td>
+                  <td>
+                      &nbsp;</td>
+              </tr>
+              <tr>
+                  <td>
+                      <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 >
+                          &nbsp;</h1>
+                      </h1>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                      <asp:Image ID="Image1" runat="server" 
+                          ImageUrl="~/Polimagenes/fondo01.jpg" Height="274px" 
+                          Width="506px" />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                  </td>
+                  <td>
+                      &nbsp;</td>
+              </tr>
+          </table>
+         
+         
+      </asp:ContentPlaceHolder>
+  </div>
+  <div id="wrapper-bottom"> </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript" src="ScriptsPlantilla/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="ScriptsPlantilla/js/main.js"></script>
+    </form>
+</body>
+</html>
+
+
